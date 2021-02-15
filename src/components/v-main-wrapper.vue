@@ -1,8 +1,15 @@
 <template>
 <div class="v-main-wrapper">
-<p>{{title}}</p>
-<v-catalog/>
-<v-cart/>
+   <router-view></router-view>
+<!--<v-table/>
+<v-sofa/>
+<v-cart 
+
+v-if="CART.length"
+:cart_data="CART"
+
+
+/>-->
 </div>
 </template>
 
@@ -11,19 +18,31 @@
 
 <script>
 
-import vCatalog from './v-catalog'
-import vCart from './v-cart'
+//import vTable from './v-table'
+//import vCart from './v-cart'
+//import vSofa from './v-sofa'
+import {mapGetters} from 'vuex'
+
+
 export default {
     name: 'v-main-wrapper',
-    components: {
-        vCatalog,
-        vCart
-    },
+    //components: {
+    //    vTable,
+   //     vCart,
+    //    vSofa
+        
+  //  },
+  
     props: {},
     data() {
         return {
-            title: 'Main wrapper'
+         
         }
+    },
+    computed: {
+      ...mapGetters ([
+          'CART'
+      ])
     }
 }
 </script>
@@ -31,6 +50,10 @@ export default {
 
 
 
-<style>
-
+<style lang="scss">
+.v-main-wrapper {
+    max-width: 900px;
+    color: $color;
+    margin: 0 auto;
+}
 </style>

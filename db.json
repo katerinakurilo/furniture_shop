@@ -1,0 +1,82 @@
+{
+  "products": [
+    
+    
+    {
+      "image": "table1.jpg",
+      "name": "table1",
+      "price": 200,
+      "article": "T1",
+      "available": false,
+      "category": "кухоные"
+      
+    },
+    {
+      "image": "table2.jpg",
+      "name": "table2",
+      "price": 300,
+      "article": "T2",
+      "available": true,
+      "category": "кухоные"
+
+      
+    },
+    {
+      "image": "table3.jpg",
+      "name": "table3",
+      "price": 400,
+      "article": "T3",
+      "available": true,
+      "category": "офисные"
+    },
+    {
+      "image": "table4.jpg",
+      "name": "table4",
+      "price": 500,
+      "article": "T4",
+      "available": true,
+      "category": "офисные"
+    }
+    
+  ],
+  "sofas": [
+    {
+      "image": "sofa1.jpg",
+      "name": "sofa1",
+      "price": 700,
+      "article": "S1",
+      "available": true,
+      "category": "для гостиной"
+    },
+    {
+      "image": "sofa2.jpg",
+      "name": "sofa2",
+      "price": 750,
+      "article": "S2",
+      "available": true,
+      "category": "для гостиной"
+    },
+    {
+      "image": "sofa3.jpeg",
+      "name": "sofa2",
+      "price": 420,
+      "article": "S3",
+      "available": true,
+      "category": "для кухни"
+    },
+    {
+      "image": "sofa4.jpg",
+      "name": "sofa4",
+      "price": 350,
+      "article": "S4",
+      "available": true,
+      "category": "для кухни"
+    }
+
+
+    
+
+  ]
+
+  
+}
